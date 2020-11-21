@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Sorted",
+  "version": "0.1.0",
+  "description": "Sort Jumbled Google-Form",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html"
+   },
+
+  "content_scripts": [{
+    "js": ["jquery_min.js", "sort.js"],
+    "matches": ["https://docs.google.com/forms/d/*"]
+  }],
+
+  "permissions": [
+    "storage"
+  ]
+}
