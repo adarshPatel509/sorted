@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Sorted",
   "version": "0.1.0",
-  "description": "Sort Jumbled Google-Form",
+  "description": "Sort Jumbled Google-Forms",
   "icons": {
     "16": "icons/16.png",
     "48": "icons/48.png",
